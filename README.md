@@ -37,3 +37,5 @@ python scripts/evaluate_per_group_pdf.py --pred_jsonl data/qa/preds.jsonl --out_
 # Or run 3-mode evaluation orchestrator (GT‑zeroshot, ASR+LoRA, LLM‑only)
 python scripts/eval_orchestrator.py --manifest data/qa/manifest.csv --kg_sql artifacts/kg_semantic.sqlite --kg_phon artifacts/kg_phonetic.jsonl --base_model meta-llama/Meta-Llama-3.1-8B-Instruct --lora_dir outputs/lora-medspeak --asr_model small --out_dir outputs/eval_runs
 ```
+
+## Just Got Accepted In ICASSP 2026
